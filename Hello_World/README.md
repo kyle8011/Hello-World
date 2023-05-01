@@ -6,8 +6,6 @@ This program uses a library in python that takes data in the form of a string an
 
 The purpose of this software is to print "Hello Wolrd" on the screen and learn about libraries in python.
 
-{Provide a link to your YouTube demonstration.  It should be a one minute demo of the software running and a walkthrough of the code.}
-
 [Software Demo Video](https://youtu.be/CugMQxywOcc)
 
 # Development Environment

@@ -6,7 +6,7 @@ This game is a 2D platformer. The objective is to collect all of the kiwis and m
 
 I only uploaded the scripts here because all of the unity files include about 3000 files and I didn't want to upload that to github, but you can take a look at the different C# scripts that I made. Check out the video to see what the actual game looks like.
 
-[Software Demo Video]([http://youtube.link.goes.here](https://www.youtube.com/watch?v=mS1CQ3kmXKE&t=170s))
+[Software Demo Video](https://www.youtube.com/watch?v=mS1CQ3kmXKE&t=170s)
 
 # Development Environment
 

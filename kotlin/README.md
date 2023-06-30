@@ -36,8 +36,6 @@ to help with randomizing movement and distance calculations.
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
 - Create an application for android.
 - Figure out real-time button inputs.
 - Learn how to convert files to use with different devices.

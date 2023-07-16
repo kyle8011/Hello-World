@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/turnTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="119dp"
+        android:text="@string/Start"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65999997">
+
+        <LinearLayout
+            style="@style/row"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/a1"
+                style="@style/column"
+                tools:ignore="DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/a2"
+                style="@style/column"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/a3"
+                style="@style/column"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <View style="@style/horizontalLine" />
+
+        <LinearLayout
+            style="@style/row"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/b1"
+                style="@style/column"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/b2"
+                style="@style/column"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/b3"
+                style="@style/column"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <View style="@style/horizontalLine" />
+
+        <LinearLayout
+            style="@style/row"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/c1"
+                style="@style/column"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/c2"
+                style="@style/column"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/c3"
+                style="@style/column"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

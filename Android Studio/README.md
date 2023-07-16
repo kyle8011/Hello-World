@@ -24,17 +24,15 @@ made it possible to save date in between closing and opening the app again.
 
 # Useful Websites
 
-  Help with initializing appcompat
-* [stackoverflow](https://stackoverflow.com/questions/50782435/android-design-support-library-for-api-28-p-not-working)
+* [stackoverflow](https://stackoverflow.com/questions/50782435/android-design-support-library-for-api-28-p-not-working) Help with initializing appcompat
   
-  Help with saving data using shared preferences
-* [youtube](https://www.youtube.com/watch?v=S5uLAGnBvUY)
+* [youtube](https://www.youtube.com/watch?v=S5uLAGnBvUY)  Help with saving data using shared preferences
   
-  Help with using Logcat for errors
-* [stackoverflow](https://stackoverflow.com/questions/23353173/unfortunately-myapp-has-stopped-how-can-i-solve-thishttp://url.link.goes.here)
+* [stackoverflow](https://stackoverflow.com/questions/23353173/unfortunately-myapp-has-stopped-how-can-i-solve-thishttp://url.link.goes.here)  Help with using Logcat for errors
   
-  Help with Kotlin function and class syntax
-* [github](https://github.com/kyle8011/Portfolio/blob/main/kotlin/Main.kt)
+* [github](https://github.com/kyle8011/Portfolio/blob/main/kotlin/Main.kt)  Help with Kotlin function and class syntax
+
+* [youtube](https://www.youtube.com/watch?v=POFvcoRo3Vw&t=85s) Tic Tac Toe tutorial in Android Studio
 
 # Future Work
 
